@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <title>Registro Paciente</title>
+</head>
+
+<body>
+  <section id="search-bar">
+    <img src="img/tamañoletra.png" class="letra-img">
+    <img src="img/lupa.png" class="lupa-img">
+    <button type="button" class="search-button"><img src="img/login.png" class="login-img"> Iniciar Sesion <img
+        src="img/flecha.png" class="flecha-img"></button>
+  </section>
+
+  <nav id="navbar">
+    <img src="img/logo.png" alt="Logo" class="logo">
+    <h1 class="hospital-text">Hospital</h1>
+    <section class="links">
+      <section id="box1">
+        <button class="zoom-link">Nosotros</button>
+      </section>
+
+      <section id="box2">
+        <button href="#" class="zoom-link">Servicio</button>
+      </section>
+
+      <section id="box3">
+        <button href="#" class="zoom-link">Contacto</button>
+      </section>
+    </section>
+  </nav>
+
+  <header id="header">
+    <img src="img/header.png" alt="header">
+  </header>
+
+  <form onsubmit="return validateForm()">
+    <h1>Registro Paciente</h1>
+    <div class="form-container">
+      <div class="column">
+        <div class="form-group">
+          <label class="label" for="cedula">Cédula:</label>
+          <input class="input" type="text" id="cedula" name="cedula" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="nombre">Nombres:</label>
+          <input class="input" type="text" id="nombres" name="nombres" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="correo">Apellidos:</label>
+          <input class="input" type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="correo">Email:</label>
+          <input class="input" type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="telefono">Teléfono:</label>
+          <input class="input" type="tel" id="telefono" name="telefono" required>
+        </div>
+      </div>
+      <div class="column">
+        <div class="form-group">
+          <label class="label" for="direccion">Dirección:</label>
+          <input class="input" type="text" id="direccion" name="direccion" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="ciudad">Ciudad de Residencia:</label>
+          <input class="input" type="text" id="ciudad" name="ciudad" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="nacimiento">Fecha de Nacimiento:</label>
+          <input class="input" type="date" id="nacimiento" name="nacimiento" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="genero">Genero:</label>
+          <input class="input" type="text" id="genero" name="genero" required>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="cancelar-button">Cancelar</button>
+      <button type="submit" class="registrar-button">Registrar</button>
+    </div>
+  </form>
+
+  <footer>
+    <p>Accesibilidad | Copyright | Declaración de Privacidad | Términos de Uso</p>
+  </footer>
+
+</body>
+
+</html>

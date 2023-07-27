@@ -1,0 +1,226 @@
+/* Estilos para el elemento 'html' */
+html {
+  background-color: #ffffff;
+}
+
+/* Estilos para el elemento 'body' */
+body {
+  width: 1000px;
+  height: 827px;
+  border: 1px solid #000000;
+}
+
+/* Estilos para la barra de búsqueda */
+#search-bar {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/* Estilos para las imágenes de la barra de búsqueda */
+.lupa-img,
+.letra-img {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para la imagen de login en la barra de búsqueda */
+.login-img {
+  width: 10px;
+  height: 10px;
+}
+
+/* Estilos para la imagen de flecha en la barra de búsqueda */
+.flecha-img {
+  width: 10px;
+  height: 10px;
+}
+
+/* Estilos para la imagen de letra en la barra de búsqueda */
+.letra-img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el botón de búsqueda */
+.search-button {
+  background-color: #ffffff;
+  color: #777777;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Estilos para la barra de navegación */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+}
+
+/* Estilos para el logo */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Estilos para el texto del hospital */
+.hospital-text {
+  margin-right: 0;
+  margin-left: 20px;
+  color: #0000ee;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Estilos para los botones con efecto de zoom */
+.zoom-link {
+  text-decoration: none;
+  color: #000000;
+  transition: transform 0.2s ease-in-out;
+  background-color: transparent; /* Quita el color de fondo */
+  border: 0; /* Quita el margen */
+}
+
+/* Estilos para el efecto de zoom al pasar el cursor por los botones */
+.zoom-link:hover {
+  transform: scale(1.5);
+}
+
+/* Estilos para los elementos con id 'box1', 'box2', 'box3' */
+#box1,
+#box2,
+#box3 {
+  margin-left: auto;
+}
+
+/* Estilos para el encabezado */
+#header {
+  width: 960px;
+  height: 300px;
+  display: flex;
+  overflow: hidden;
+  background-color: #444654;
+  margin: 0px 20px 0px 20px;
+}
+
+/* Estilos para las imágenes dentro del encabezado */
+#header img {
+  width: 100%;
+  height: auto;
+  padding-top: 25px;
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: #444654;
+  color: #f0f0f0;
+  margin: 0px 20px 20px 20px;
+}
+
+/* Estilos para el título del formulario */
+form h1 {
+  color: #21ade2;
+  margin: 10px 0px 20px 25px;
+}
+
+/* Estilos para el contenedor de columnas en el formulario */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para cada columna del formulario */
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Estilos para el grupo de elementos del formulario */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la etiqueta del formulario */
+.label {
+  flex: 1;
+  text-align: left;
+  padding-right: 10px;
+  margin: 0px 0px 0px 20px;
+}
+
+/* Estilos para el campo de entrada del formulario */
+.input {
+  flex: 2;
+  padding: 5px;
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+  padding: 0px 10px 20px 0px;
+  text-align: right;
+}
+
+/* Estilos para el botón de registrar */
+.registrar-button {
+  background-color: #ffa300;
+  color: #000000;
+  padding: 5px 35px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+/* Estilos para el botón de registrar al pasar el cursor por encima */
+.registrar-button:hover {
+  background-color: yellow;
+  color: #000000;
+  font-size: 18px;
+}
+
+/* Estilos para el botón de cancelar */
+.cancelar-button {
+  background-color: #cccccc;
+  color: #000000;
+  padding: 5px 35px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilos para el botón de cancelar al pasar el cursor por encima */
+.cancelar-button:hover {
+  background-color: #8e8d8d;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Estilos para el footer */
+footer {
+  width: 1000px;
+  height: 50px;
+  float: left;
+  background-color: #111111;
+  color: #ffffff;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* Estilos para el párrafo dentro del footer */
+footer p {
+  padding: 0px 40px 0px 40px;
+}
